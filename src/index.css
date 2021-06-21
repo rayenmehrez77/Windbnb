@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .search-btn {
+    @apply bg-red-500 shadow rounded-2xl flex justify-center items-center focus:outline-none;
+  }
+}
